@@ -8,7 +8,7 @@ manager: nitinme
 ms.service: cognitive-services
 ms.subservice: speech-service
 ms.topic: conceptual
-ms.date: 09/24/2020
+ms.date: 10/05/2020
 ms.author: aahi
 ---
 
@@ -131,6 +131,9 @@ Container images for Speech are available in the following Container Registry.
 | Custom Text-to-speech | `mcr.microsoft.com/azure-cognitive-services/speechservices/custom-text-to-speech:latest` |
 
 # [Speech Language Detection](#tab/lid)
+
+> [!TIP]
+> For best results, we recommend using the Speech language detection container with the Speech-to-text or Custom speech-to-text containers. 
 
 | Container | Repository |
 |-----------|------------|
